@@ -24,7 +24,7 @@ int main()
             // from 2 to sqrt(m)
             for(int j=2;j*j<=i;j++){
                 if(i%j==0) {
-                    // if it can be divisable, i is not a prime number
+                    // if it can be divisible, i is not a prime number
                     prime=false;
                     break;
                 }
